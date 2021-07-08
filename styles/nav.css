@@ -1,5 +1,5 @@
 
-nav ul{
+nav > ul{
     display: flex;
 }
 nav li
@@ -15,4 +15,16 @@ nav li a
 }
 nav li:hover{
     background-color: black;
+}
+.dropdown{
+    display: none;
+
+}
+nav > ul >li:hover >ul{
+    display: block;
+    position: absolute;
+    background-color: lightgreen;
+    padding: 0;
+
+
 }
